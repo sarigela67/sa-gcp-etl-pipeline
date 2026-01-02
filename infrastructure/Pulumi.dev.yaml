@@ -1,0 +1,4 @@
+config:
+  gcp:project: sonic-earth-476701-m1
+  gcp:region: northamerica-northeast1
+

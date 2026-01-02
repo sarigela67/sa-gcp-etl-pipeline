@@ -1,0 +1,19 @@
+name: gcp-etl
+runtime: yaml
+resources:
+  raw-bucket:
+    type: gcp:storage:Bucket
+    properties:
+      location: US
+      uniformBucketLevelAccess: true
+  dataset:
+    type: gcp:bigquery:Dataset
+    properties:
+      datasetId: etl_demo
+  table:
+    type: gcp:bigquery:Table
+    properties:
+      datasetId: ${dataset.datasetId}
+      tableId: customers
+      schema: '[{"name":"id","type":"INTEGER"},{"name":"name","type":"STRING"},{"name":"age","type":"INTEGER"},{"name":"city","type":"STRING"},{"name":"age_group","type":"STRING"}]'
+
