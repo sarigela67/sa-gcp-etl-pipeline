@@ -3,9 +3,8 @@ End-to-end data engineering projects: \*\*Infrastructure as Code\*\* + \*\*Pytho
 
 
 🎯 Project1 Overview(IaC):
- Depoyed IaC using pulumi →Created GCS Buckets → Bigquery Datasets
-
- Business Problem:Processed raw customer data (CSV) → analytics table (BigQuery) with derived insights.
+ Depoyed IaC using pulumi →Created GCS Buckets → Bigquery Datasets.
+ Processed simple raw customer data (CSV) → analytics table (BigQuery) with derived insights.
 
 🎯 Project2 Overview:
 # GCP ETL Pipeline: NYC Taxi Analytics (Production-Ready) 🚀
