@@ -26,3 +26,5 @@ End-to-end data engineering project: \*\*Infrastructure as Code\*\* + \*\*Python
 
 
 
+# Load: bq load ... 
+# Demo: SELECT * FROM etl_demo.daily_metrics 
