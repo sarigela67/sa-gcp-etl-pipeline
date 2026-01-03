@@ -1,5 +1,5 @@
 GCP ETL Pipeline: Pulumi + GCS → BigQuery 🚀
-End-to-end data engineering projects: \*\*Infrastructure as Code\*\* + \*\*Python ETL\*\* +\*\*SQL ETL\*\* Indifferent projects.
+End-to-end data engineering projects: \*\*Infrastructure as Code\*\* + \*\*Python ETL\*\* +\*\*SQL ETL\*\* In two different projects.
 
 
 🎯 Project1 Overview(IaC):
