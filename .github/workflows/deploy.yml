@@ -9,6 +9,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - uses: pulumi/actions@v6
+      working-directory: .
       with:
         command: preview
         stack-name: sarigela67/gcp-etl/dev
@@ -22,6 +23,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - uses: pulumi/actions@v6
+      working-directory: .
       with:
         command: up
         stack-name: sarigela67/gcp-etl/dev
