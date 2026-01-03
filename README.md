@@ -1,11 +1,13 @@
-\# GCP ETL Pipeline: Pulumi + GCS → BigQuery 🚀
+GCP ETL Pipeline: Pulumi + GCS → BigQuery 🚀
 End-to-end data engineering projects: \*\*Infrastructure as Code\*\* + \*\*Python ETL\*\* +\*\*SQL ETL\*\* Indifferent projects.
-\## 🎯 Project1 Overview:
-\## Depoyed IaC using pulumi ##\
 
-\*\*Business Problem:\*\* Process raw customer data (CSV) → analytics table (BigQuery) with derived insights.
 
-\## 🎯 Project2 Overview:
+🎯 Project1 Overview(IaC):
+ Depoyed IaC using pulumi →Created GCS Buckets → Bigquery Datasets
+
+ Business Problem:Processed raw customer data (CSV) → analytics table (BigQuery) with derived insights.
+
+🎯 Project2 Overview:
 # GCP ETL Pipeline: NYC Taxi Analytics (Production-Ready) 🚀
 
 [![Pulumi](https://img.shields.io/badge/Pulumi-IaC-yellow?logo=pulumi&logoColor=white)](https://pulumi.com)
